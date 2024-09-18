@@ -4,9 +4,9 @@ pragma solidity ^0.8.26;
 import {PackedUserOperation} from "@eth-infinitism/account-abstraction/interfaces/PackedUserOperation.sol";
 import {IERC165} from "@openzeppelin/contracts/interfaces/IERC165.sol";
 
-import {Call, IModularAccount} from "@erc-6900/reference-implementation/interfaces/IModularAccount.sol";
-import {IModule} from "@erc-6900/reference-implementation/interfaces/IModule.sol";
-import {IValidationHookModule} from "@erc-6900/reference-implementation/interfaces/IValidationHookModule.sol";
+import {Call, IModularAccount} from "@erc6900/reference-implementation/interfaces/IModularAccount.sol";
+import {IModule} from "@erc6900/reference-implementation/interfaces/IModule.sol";
+import {IValidationHookModule} from "@erc6900/reference-implementation/interfaces/IValidationHookModule.sol";
 
 import {BaseModule} from "../../modules/BaseModule.sol";
 

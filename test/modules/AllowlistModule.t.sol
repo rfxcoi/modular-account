@@ -3,7 +3,7 @@ pragma solidity ^0.8.26;
 
 import {IEntryPoint} from "@eth-infinitism/account-abstraction/interfaces/IEntryPoint.sol";
 
-import {Call} from "@erc-6900/reference-implementation/interfaces/IModularAccount.sol";
+import {Call} from "@erc6900/reference-implementation/interfaces/IModularAccount.sol";
 
 import {ModularAccount} from "../../src/account/ModularAccount.sol";
 import {HookConfigLib} from "../../src/helpers/HookConfigLib.sol";
